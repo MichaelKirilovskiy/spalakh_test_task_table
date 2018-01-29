@@ -1,0 +1,102 @@
+
+
+* {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, img, ul, ol, li, a, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #202020;
+    font-size: 18pt;
+    text-align: left;
+    border-bottom: 3px solid #f60522;
+}
+.logo {
+    padding: 25px 0 20px 75px;
+
+}
+.main {
+    display: flex;
+    width: 100%;
+    background-color: #202020;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+.left-side {
+
+    width: 300px;
+    font-size: 18pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bxslider {
+
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.pages {
+    width: 100%;
+    justify-content: center;
+}
+.image-holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+.bx-prev {
+    display: block;
+    width: 60px;
+    height: 59px;
+    background: url("../images/left.png");
+    position: absolute;
+    left: 250px;
+    top: 50%;
+    margin-top: -30px;
+    /*text-indent: 9999px;     сдвиг текста Prev c экрана*/
+    z-index: 100;
+}
+.bx-next {
+    display: block;
+    width: 60px;
+    height: 59px;
+    background: url("../images/right.png");
+    position: absolute;
+    right: 250px;
+    top: 50%;
+    margin-top: -30px;
+    /*text-indent: 9999px;      сдвиг текста Next с экрана*/
+    z-index: 100;
+}
+.right-side {
+
+    width: 300px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer {
+    width: 100%;
+    background-image: url("../images/cell.jpg");
+    color: white;
+    font-size: 18pt;
+    text-align: right;
+    border-top: 3px solid #f60522;
+
+}
